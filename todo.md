@@ -79,3 +79,12 @@
 - [x] Deployment guide for Render and Vercel
 - [x] Code pushed to GitHub (SteveHaveIt/Blog)
 - [x] Environment variables configured securely
+
+
+## Telegram Bot Integration
+- [ ] Create Telegram webhook endpoint for bot updates
+- [ ] Implement bot command handlers (/submit, /publish, /delete)
+- [ ] Add message parsing for content extraction
+- [ ] Set up bot webhook in Telegram API
+- [ ] Test bot integration end-to-end
+- [ ] Create bot usage documentation

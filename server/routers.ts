@@ -3,6 +3,7 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
 import { postsRouter } from "./routers-posts";
+import { telegramRouter } from "./routers-telegram";
 import { initializeSupabaseSchema } from "./supabase";
 
 // Initialize Supabase schema on startup
@@ -24,6 +25,7 @@ export const appRouter = router({
     }),
   }),
   posts: postsRouter,
+  telegram: telegramRouter,
 });
 
 export type AppRouter = typeof appRouter;
