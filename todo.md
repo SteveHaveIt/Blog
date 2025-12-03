@@ -61,9 +61,21 @@
 - [x] Unit tests for API endpoints (all 13 tests passing)
 
 ## Pending Tasks
-- [ ] Receive Supabase credentials from user
-- [ ] Test Supabase connection
-- [ ] Create posts table in Supabase
-- [ ] Test all API endpoints with sample data
-- [ ] Push code to GitHub repository
-- [ ] Create deployment guide for Render/Vercel
+- [x] Receive Supabase credentials from user
+- [x] Test Supabase connection (credentials validated)
+- [ ] Create posts table in Supabase (user to run SQL script)
+- [ ] Test all API endpoints with sample data (after table creation)
+- [x] Push code to GitHub repository
+- [x] Create deployment guide for Render/Vercel
+
+## Completed in This Session
+- [x] Supabase integration with service role key
+- [x] Complete tRPC API endpoints (create, read, update, delete, publish)
+- [x] Database helper functions for all CRUD operations
+- [x] Comprehensive unit tests (13 tests, all passing)
+- [x] Full README documentation with API examples
+- [x] Input validation using Zod
+- [x] Error handling and logging
+- [x] Deployment guide for Render and Vercel
+- [x] Code pushed to GitHub (SteveHaveIt/Blog)
+- [x] Environment variables configured securely
