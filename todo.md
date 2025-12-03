@@ -82,9 +82,12 @@
 
 
 ## Telegram Bot Integration
-- [ ] Create Telegram webhook endpoint for bot updates
-- [ ] Implement bot command handlers (/submit, /publish, /delete)
-- [ ] Add message parsing for content extraction
-- [ ] Set up bot webhook in Telegram API
-- [ ] Test bot integration end-to-end
-- [ ] Create bot usage documentation
+- [x] Create Telegram webhook endpoint for bot updates
+- [x] Implement bot command handlers (/new with inline buttons)
+- [x] Add message parsing for content extraction
+- [x] Set up bot webhook configuration
+- [x] Implement guided submission flow (title → content → media → tags → author)
+- [x] Create bot usage documentation
+- [x] Add duplicate prevention (checks last 5 submissions)
+- [x] Implement error handling and validation
+- [x] Push to GitHub
